@@ -1,6 +1,6 @@
 package com.cognizant.model;
 
-import java.util.Date;
+
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -29,19 +29,18 @@ public class MenuItem {
 	private String name;
 	@Column(name = "price")
 	@NotNull
-	private float price;
+	private double price;
 	@Column(name = "actv")
 	@NotNull
 	private boolean actv;
-
-	@Column(name = "dateoflaunch")
+    @Column(name = "dateoflaunch")
 	@NotNull
-	private Date dateOfLaunch;
+	private String dateOfLaunch;
 	@Column(name = "category")
 	@NotNull
 	private String category;
 	@Column(name = "freedelivery")
 	@NotNull
-	private boolean freeDelivery;
+	private String freeDelivery;
 
 }

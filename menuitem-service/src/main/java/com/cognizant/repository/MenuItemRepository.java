@@ -20,5 +20,9 @@ public interface MenuItemRepository extends JpaRepository<MenuItem,Integer> {
 	@Modifying
 	@Query(value = "DELETE FROM menuitems WHERE id = :id", nativeQuery = true)
 	public int deleteById(@Param("id") Long id);
+	
+	@Modifying
+	@Query(value = "DELETE FROM menuitems WHERE name = :name", nativeQuery = true)
+	public int deleteByName(@Param("name") String name);
 
 }
