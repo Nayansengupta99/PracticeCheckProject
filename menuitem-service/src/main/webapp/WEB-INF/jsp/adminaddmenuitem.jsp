@@ -65,7 +65,7 @@ body {
 		
 		<ul class="nav navbar-nav ml-auto">
 			<li class="nav-item"><a class="nav-link" href="/menuitems/">Admin Panel</a></li>
-			<li class="nav-item"><a class="nav-link" href="#"> User Panel</a></li>
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8081/userpanel/"> User Panel</a></li>
 		</ul>
 	</div>
 	</nav>

@@ -51,7 +51,7 @@ body {
 </head>
 
 <body><nav class="navbar navbar-expand-md navbar-light bg-warning"> <a
-		class="navbar-brand" href="/bookstore/${userName}">Welcome to
+		class="navbar-brand" href="/menuitems/">Welcome to
 		Food Mart </a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse"
 		data-target="#collapsibleNavbar">
@@ -69,7 +69,7 @@ body {
 		</ul>
 		<ul class="nav navbar-nav ml-auto">
 			<li class="nav-item"><a class="nav-link" href="/menuitems/">Admin Panel</a></li>
-			<li class="nav-item"><a class="nav-link" href="#"> User Panel</a></li>
+			<li class="nav-item"><a class="nav-link" href="http://localhost:8081/userpanel/"> User Panel</a></li>
 		</ul>
 	</div>
 	</nav>
